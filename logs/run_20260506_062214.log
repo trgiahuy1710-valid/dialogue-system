@@ -1,0 +1,2 @@
+06:22:14 | INFO     | pipeline             | Pipeline init | root=/storage/huytg/dataset_audio_vieneu_clean_f5tts_v2 | mock=True
+06:22:14 | INFO     | model_client         | [MockModelClient] Initialized (no GPU needed)
