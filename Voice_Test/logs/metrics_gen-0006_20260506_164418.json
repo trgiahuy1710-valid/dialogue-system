@@ -1,0 +1,41 @@
+{
+  "conversation_id": "gen-0006",
+  "timestamp": "20260506_164418",
+  "turns": [
+    {
+      "turn_id": "gen-0006_t00",
+      "audio_file": "user_0.wav",
+      "audio_duration_s": 4.896,
+      "audio_encode_latency_s": 0.241,
+      "inference_latency_s": 1.925,
+      "tool_calls": [
+        {
+          "name": "process_medical_claim",
+          "args": {
+            "policy_id": "HD000000",
+            "hospital_name": "Bệnh viện",
+            "admission_date": "2024-01-01",
+            "diagnosis": "Bệnh lý"
+          }
+        }
+      ],
+      "tool_latency_s": 0.0,
+      "tts_latency_s": 0.088,
+      "total_latency_s": 2.259,
+      "thinker_text": "Người dùng đề cập nhập viện tại \"Bệnh viện\" ngày 2024-01-01 vì \"Bệnh lý\".\nTôi cần tạo hồ sơ bồi thường y tế.\n[Post-tool]\nNgười dùng đề cập nhập viện tại \"Bệnh viện\" ngày 2024-01-01 vì \"Bệnh lý\".\nTôi cần tạo hồ sơ bồi thường y tế.",
+      "response_text": "Yêu cầu của bạn đã được ghi nhận và đang được xử lý. Chúng tôi sẽ liên hệ lại sớm.",
+      "response_audio_path": "./logs/response_audio/gen-0006_t00_20260506_164418_232302.wav",
+      "error": null
+    }
+  ],
+  "summary": {
+    "total_turns": 1,
+    "avg_asr_latency_s": 0.241,
+    "avg_llm_latency_s": 1.925,
+    "avg_tool_latency_s": 0.0,
+    "avg_tts_latency_s": 0.088,
+    "avg_total_latency_s": 2.259,
+    "turns_with_tools": 1,
+    "turns_with_errors": 0
+  }
+}

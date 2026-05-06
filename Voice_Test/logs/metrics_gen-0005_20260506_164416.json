@@ -1,0 +1,31 @@
+{
+  "conversation_id": "gen-0005",
+  "timestamp": "20260506_164416",
+  "turns": [
+    {
+      "turn_id": "gen-0005_t00",
+      "audio_file": "user_0.wav",
+      "audio_duration_s": 3.947,
+      "audio_encode_latency_s": 0.135,
+      "inference_latency_s": 1.19,
+      "tool_calls": [],
+      "tool_latency_s": 0.0,
+      "tts_latency_s": 0.087,
+      "total_latency_s": 1.416,
+      "thinker_text": "Đây là câu hỏi thông thường về trạng thái hồ sơ.\nTôi sẽ trả lời trực tiếp, không cần gọi tool.",
+      "response_text": "Xin chào! Hồ sơ bồi thường của bạn đang được xem xét. Thời gian xử lý dự kiến 5-7 ngày làm việc. Bạn có thể theo dõi qua app hoặc liên hệ hotline 1900-xxxx.",
+      "response_audio_path": "./logs/response_audio/gen-0005_t00_20260506_164415_971597.wav",
+      "error": null
+    }
+  ],
+  "summary": {
+    "total_turns": 1,
+    "avg_asr_latency_s": 0.135,
+    "avg_llm_latency_s": 1.19,
+    "avg_tool_latency_s": 0.0,
+    "avg_tts_latency_s": 0.087,
+    "avg_total_latency_s": 1.416,
+    "turns_with_tools": 0,
+    "turns_with_errors": 0
+  }
+}
