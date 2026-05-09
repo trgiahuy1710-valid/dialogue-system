@@ -1,0 +1,137 @@
+{
+  "conversation_id": "gen-0006",
+  "timestamp": "20260506_180055",
+  "turns": [
+    {
+      "turn_id": "gen-0006_t00",
+      "audio_file": "user_0.wav",
+      "audio_duration_s": 4.896,
+      "audio_encode_latency_s": 0.181,
+      "inference_latency_s": 1.659,
+      "tool_calls": [
+        {
+          "name": "process_medical_claim",
+          "args": {
+            "policy_id": "HD000000",
+            "hospital_name": "Bệnh viện",
+            "admission_date": "2024-01-01",
+            "diagnosis": "Bệnh lý"
+          }
+        }
+      ],
+      "tool_latency_s": 0.0,
+      "tts_latency_s": 0.087,
+      "total_latency_s": 1.931,
+      "thinker_text": "Người dùng đề cập nhập viện tại \"Bệnh viện\" ngày 2024-01-01 vì \"Bệnh lý\".\nTôi cần tạo hồ sơ bồi thường y tế.\n[Post-tool]\nNgười dùng đề cập nhập viện tại \"Bệnh viện\" ngày 2024-01-01 vì \"Bệnh lý\".\nTôi cần tạo hồ sơ bồi thường y tế.",
+      "response_text": "Yêu cầu của bạn đã được ghi nhận và đang được xử lý. Chúng tôi sẽ liên hệ lại sớm.",
+      "response_audio_path": "./logs/response_audio/gen-0006_t00_20260506_180045_610056.wav",
+      "error": null
+    },
+    {
+      "turn_id": "gen-0006_t01",
+      "audio_file": "user_2.wav",
+      "audio_duration_s": 3.296,
+      "audio_encode_latency_s": 0.208,
+      "inference_latency_s": 2.684,
+      "tool_calls": [
+        {
+          "name": "verify_policy",
+          "args": {
+            "policy_id": "HD000000",
+            "customer_name": "Khách hàng"
+          }
+        }
+      ],
+      "tool_latency_s": 0.0,
+      "tts_latency_s": 0.087,
+      "total_latency_s": 2.984,
+      "thinker_text": "Người dùng cung cấp hợp đồng HD000000 và tên Khách hàng.\nTôi cần gọi verify_policy để xác thực trước.\n[Post-tool]\nNgười dùng cung cấp hợp đồng HD000000 và tên Khách hàng.\nTôi cần gọi verify_policy để xác thực trước.",
+      "response_text": "Yêu cầu của bạn đã được ghi nhận và đang được xử lý. Chúng tôi sẽ liên hệ lại sớm.",
+      "response_audio_path": "./logs/response_audio/gen-0006_t01_20260506_180048_593444.wav",
+      "error": null
+    },
+    {
+      "turn_id": "gen-0006_t02",
+      "audio_file": "user_7.wav",
+      "audio_duration_s": 4.288,
+      "audio_encode_latency_s": 0.164,
+      "inference_latency_s": 1.901,
+      "tool_calls": [
+        {
+          "name": "process_medical_claim",
+          "args": {
+            "policy_id": "HD000000",
+            "hospital_name": "bảo vài",
+            "admission_date": "2024-01-01",
+            "diagnosis": "Bệnh lý"
+          }
+        }
+      ],
+      "tool_latency_s": 0.0,
+      "tts_latency_s": 0.088,
+      "total_latency_s": 2.157,
+      "thinker_text": "Người dùng đề cập nhập viện tại \"bảo vài\" ngày 2024-01-01 vì \"Bệnh lý\".\nTôi cần tạo hồ sơ bồi thường y tế.\n[Post-tool]\nNgười dùng đề cập nhập viện tại \"bảo vài\" ngày 2024-01-01 vì \"Bệnh lý\".\nTôi cần tạo hồ sơ bồi thường y tế.",
+      "response_text": "Yêu cầu của bạn đã được ghi nhận và đang được xử lý. Chúng tôi sẽ liên hệ lại sớm.",
+      "response_audio_path": "./logs/response_audio/gen-0006_t02_20260506_180050_750197.wav",
+      "error": null
+    },
+    {
+      "turn_id": "gen-0006_t03",
+      "audio_file": "user_11.wav",
+      "audio_duration_s": 6.123,
+      "audio_encode_latency_s": 0.123,
+      "inference_latency_s": 1.5,
+      "tool_calls": [
+        {
+          "name": "verify_policy",
+          "args": {
+            "policy_id": "HD113734",
+            "customer_name": "tôi là Nguyễn Thị Mai"
+          }
+        }
+      ],
+      "tool_latency_s": 0.0,
+      "tts_latency_s": 0.086,
+      "total_latency_s": 1.714,
+      "thinker_text": "Người dùng cung cấp hợp đồng HD113734 và tên tôi là Nguyễn Thị Mai.\nTôi cần gọi verify_policy để xác thực trước.\n[Post-tool]\nNgười dùng cung cấp hợp đồng HD113734 và tên tôi là Nguyễn Thị Mai.\nTôi cần gọi verify_policy để xác thực trước.",
+      "response_text": "Yêu cầu của bạn đã được ghi nhận và đang được xử lý. Chúng tôi sẽ liên hệ lại sớm.",
+      "response_audio_path": "./logs/response_audio/gen-0006_t03_20260506_180052_465725.wav",
+      "error": null
+    },
+    {
+      "turn_id": "gen-0006_t04",
+      "audio_file": "user_13.wav",
+      "audio_duration_s": 2.763,
+      "audio_encode_latency_s": 0.165,
+      "inference_latency_s": 2.293,
+      "tool_calls": [
+        {
+          "name": "process_accident_claim",
+          "args": {
+            "policy_id": "HD000000",
+            "incident_date": "2024-02-10",
+            "incident_description": "Tôi bị tai nạn xe máy ngày 2024-02-10, gãy tay phải.",
+            "injury_type": "tay phải"
+          }
+        }
+      ],
+      "tool_latency_s": 0.0,
+      "tts_latency_s": 0.088,
+      "total_latency_s": 2.551,
+      "thinker_text": "Người dùng bị tai nạn ngày 2024-02-10, chấn thương: \"tay phải\".\nTôi cần tạo hồ sơ bồi thường tai nạn.\n[Post-tool]\nNgười dùng bị tai nạn ngày 2024-02-10, chấn thương: \"tay phải\".\nTôi cần tạo hồ sơ bồi thường tai nạn.",
+      "response_text": "Yêu cầu của bạn đã được ghi nhận và đang được xử lý. Chúng tôi sẽ liên hệ lại sớm.",
+      "response_audio_path": "./logs/response_audio/gen-0006_t04_20260506_180055_015745.wav",
+      "error": null
+    }
+  ],
+  "summary": {
+    "total_turns": 5,
+    "avg_asr_latency_s": 0.168,
+    "avg_llm_latency_s": 2.008,
+    "avg_tool_latency_s": 0.0,
+    "avg_tts_latency_s": 0.087,
+    "avg_total_latency_s": 2.267,
+    "turns_with_tools": 5,
+    "turns_with_errors": 0
+  }
+}

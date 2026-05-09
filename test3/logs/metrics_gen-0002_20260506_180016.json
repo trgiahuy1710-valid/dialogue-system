@@ -1,0 +1,117 @@
+{
+  "conversation_id": "gen-0002",
+  "timestamp": "20260506_180016",
+  "turns": [
+    {
+      "turn_id": "gen-0002_t00",
+      "audio_file": "user_0.wav",
+      "audio_duration_s": 6.272,
+      "audio_encode_latency_s": 0.227,
+      "inference_latency_s": 1.015,
+      "tool_calls": [],
+      "tool_latency_s": 0.0,
+      "tts_latency_s": 0.087,
+      "total_latency_s": 1.333,
+      "thinker_text": "Đây là câu hỏi thông thường về trạng thái hồ sơ.\nTôi sẽ trả lời trực tiếp, không cần gọi tool.",
+      "response_text": "Xin chào! Hồ sơ bồi thường của bạn đang được xem xét. Thời gian xử lý dự kiến 5-7 ngày làm việc. Bạn có thể theo dõi qua app hoặc liên hệ hotline 1900-xxxx.",
+      "response_audio_path": "./logs/response_audio/gen-0002_t00_20260506_180008_024857.wav",
+      "error": null
+    },
+    {
+      "turn_id": "gen-0002_t01",
+      "audio_file": "user_2.wav",
+      "audio_duration_s": 2.805,
+      "audio_encode_latency_s": 0.125,
+      "inference_latency_s": 2.115,
+      "tool_calls": [
+        {
+          "name": "verify_policy",
+          "args": {
+            "policy_id": "HD000000",
+            "customer_name": "Khách hàng"
+          }
+        }
+      ],
+      "tool_latency_s": 0.0,
+      "tts_latency_s": 0.087,
+      "total_latency_s": 2.333,
+      "thinker_text": "Người dùng cung cấp hợp đồng HD000000 và tên Khách hàng.\nTôi cần gọi verify_policy để xác thực trước.\n[Post-tool]\nNgười dùng cung cấp hợp đồng HD000000 và tên Khách hàng.\nTôi cần gọi verify_policy để xác thực trước.",
+      "response_text": "Yêu cầu của bạn đã được ghi nhận và đang được xử lý. Chúng tôi sẽ liên hệ lại sớm.",
+      "response_audio_path": "./logs/response_audio/gen-0002_t01_20260506_180010_358109.wav",
+      "error": null
+    },
+    {
+      "turn_id": "gen-0002_t02",
+      "audio_file": "user_7.wav",
+      "audio_duration_s": 7.456,
+      "audio_encode_latency_s": 0.2,
+      "inference_latency_s": 0.64,
+      "tool_calls": [],
+      "tool_latency_s": 0.0,
+      "tts_latency_s": 0.087,
+      "total_latency_s": 0.932,
+      "thinker_text": "Đây là câu hỏi thông thường về trạng thái hồ sơ.\nTôi sẽ trả lời trực tiếp, không cần gọi tool.",
+      "response_text": "Xin chào! Hồ sơ bồi thường của bạn đang được xem xét. Thời gian xử lý dự kiến 5-7 ngày làm việc. Bạn có thể theo dõi qua app hoặc liên hệ hotline 1900-xxxx.",
+      "response_audio_path": "./logs/response_audio/gen-0002_t02_20260506_180011_290289.wav",
+      "error": null
+    },
+    {
+      "turn_id": "gen-0002_t03",
+      "audio_file": "user_11.wav",
+      "audio_duration_s": 3.296,
+      "audio_encode_latency_s": 0.136,
+      "inference_latency_s": 1.95,
+      "tool_calls": [
+        {
+          "name": "verify_policy",
+          "args": {
+            "policy_id": "HD113734",
+            "customer_name": "tôi là Nguyễn Thị Mai"
+          }
+        }
+      ],
+      "tool_latency_s": 0.0,
+      "tts_latency_s": 0.087,
+      "total_latency_s": 2.178,
+      "thinker_text": "Người dùng cung cấp hợp đồng HD113734 và tên tôi là Nguyễn Thị Mai.\nTôi cần gọi verify_policy để xác thực trước.\n[Post-tool]\nNgười dùng cung cấp hợp đồng HD113734 và tên tôi là Nguyễn Thị Mai.\nTôi cần gọi verify_policy để xác thực trước.",
+      "response_text": "Yêu cầu của bạn đã được ghi nhận và đang được xử lý. Chúng tôi sẽ liên hệ lại sớm.",
+      "response_audio_path": "./logs/response_audio/gen-0002_t03_20260506_180013_468213.wav",
+      "error": null
+    },
+    {
+      "turn_id": "gen-0002_t04",
+      "audio_file": "user_13.wav",
+      "audio_duration_s": 2.155,
+      "audio_encode_latency_s": 0.13,
+      "inference_latency_s": 2.549,
+      "tool_calls": [
+        {
+          "name": "process_accident_claim",
+          "args": {
+            "policy_id": "HD000000",
+            "incident_date": "2024-02-10",
+            "incident_description": "Tôi bị tai nạn xe máy ngày 2024-02-10, gãy tay phải.",
+            "injury_type": "tay phải"
+          }
+        }
+      ],
+      "tool_latency_s": 0.0,
+      "tts_latency_s": 0.088,
+      "total_latency_s": 2.775,
+      "thinker_text": "Người dùng bị tai nạn ngày 2024-02-10, chấn thương: \"tay phải\".\nTôi cần tạo hồ sơ bồi thường tai nạn.\n[Post-tool]\nNgười dùng bị tai nạn ngày 2024-02-10, chấn thương: \"tay phải\".\nTôi cần tạo hồ sơ bồi thường tai nạn.",
+      "response_text": "Yêu cầu của bạn đã được ghi nhận và đang được xử lý. Chúng tôi sẽ liên hệ lại sớm.",
+      "response_audio_path": "./logs/response_audio/gen-0002_t04_20260506_180016_243380.wav",
+      "error": null
+    }
+  ],
+  "summary": {
+    "total_turns": 5,
+    "avg_asr_latency_s": 0.164,
+    "avg_llm_latency_s": 1.654,
+    "avg_tool_latency_s": 0.0,
+    "avg_tts_latency_s": 0.087,
+    "avg_total_latency_s": 1.91,
+    "turns_with_tools": 3,
+    "turns_with_errors": 0
+  }
+}

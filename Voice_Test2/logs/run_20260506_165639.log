@@ -1,0 +1,5 @@
+16:56:39 | INFO     | pipeline             | [Pipeline] Init | root_dir=/storage/huytg/dataset_audio_vieneu_clean_f5tts_v2 | mock=False | chunk_ms=20
+16:56:39 | INFO     | pipeline             | [Pipeline] root_dir exists: True
+16:56:39 | INFO     | pipeline             | [Pipeline] Loading QwenOmniClient: Qwen/Qwen2.5-Omni-7B
+16:56:39 | INFO     | model_client         | [QwenOmni] Loading: Qwen/Qwen2.5-Omni-7B on cuda
+16:57:17 | ERROR    | model_client         | [QwenOmni] Import error: cannot import name 'Qwen2_5OmniModel' from 'transformers' (/home/hoangnv/miniconda3/envs/speech/lib/python3.10/site-packages/transformers/__init__.py)
